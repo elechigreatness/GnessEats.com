@@ -6,6 +6,12 @@
     font-weight: bold;
 }
 video {
-    height: 100%;
+    height: 80vh;
     object-fit: cover;
+}
+.who-we-are-button {
+    border-radius: 8px;
+}
+.who-we-are-p-text {
+    font-weight: bold;
 }
