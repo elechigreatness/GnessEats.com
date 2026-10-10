@@ -5,9 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GnessEats.com</title>
     <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header></header>
+    <header>
+        <nav class="white">
+            <div class="row">
+                <div col s6 m6 l6>
+                    <div class=" nav-wrapper container navbar-fixed">
+                        <div class="brand-logo">
+                            <img src="img/gnesslogo.jpg" alt="GnessEats.com" class="responsive-img" style="width: 170px;">
+                        </div>
+                    </div>
+                </div>
+                        <div class="col s6 m6 l6 right">
+                            <a href="#mobile-sidenav" class="sidenav-trigger"><i class="material-icons orange-text text darken-4">menu</i></a>
+                            <ul>
+                                <li><a href="#who-we-are" class="orange-text nav-links">Who We Are</a></li>
+                                <li><a href="#find-a-recipe" class="orange-text nav-links">Find a Recipe</a></li>
+                                <li><a href="#meet-the-expert" class="orange-text nav-links">Meet the Expert</a></li>
+                                <li><a href="#cliente" class="orange-text nav-links">Cliente</a></li>
+                                <li><a href="#" class="btn orange darken-4 login-button">Login</a></li>
+                            </ul>
+                        </div>
+            </div>
+        </nav>
+                            <ul class="sidenav" id="mobile-sidenav">
+                                <li><a href="#who-we-are" class="orange-text nav-links">Who We Are</a></li>
+                                <li><a href="#find-a-recipe" class="orange-text nav-links">Find a Recipe</a></li>
+                                <li><a href="#meet-the-expert" class="orange-text nav-links">Meet the Expert</a></li>
+                                <li><a href="#cliente" class="orange-text nav-links">Cliente</a></li>
+                                <li><a href="#" class="btn orange darken-4 login-button">Login</a></li>
+                            </ul>
+    </header>
     <main></main>
     <footer></footer>
 </body>
@@ -15,7 +45,7 @@
 <script src="js/materialize.js"></script>
 <script>
     $(document).ready( ()=>{
-
+    $('sidenav').sidenav();
     })
 </script>
 </html>
