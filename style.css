@@ -1,3 +1,6 @@
+body {
+font-family: 'Josefin Sans', sans-serif;
+}
 .nav-links {
     font-weight: bold;
 }
@@ -56,4 +59,12 @@ video {
 .our-estenned-cliente-h-tag {
 font-size: 40px;
 text-align: center;
+}
+.footer-h-tags {
+    font-size: 20px;
+    color: #e65100;
+}
+footer {
+    margin-top: 150px;
+    background: linear-gradient(to top, #e65100 0%, #ffad7a 45%, #f9f5f6 100%);
 }
