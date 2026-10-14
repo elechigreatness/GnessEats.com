@@ -20,14 +20,16 @@
                             <img src="img/gnesslogo.jpg" alt="GnessEats.com" style="width: 170px;">
                         </div>
                     </div>
-                    <a href="#mobile-sidenav" class="sidenav-trigger orange-text text-darken-4"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="#who-we-are" class="orange-text text-darken-3 nav-links">Who We Are</a></li>
-                        <li><a href="#find-a-recipe" class="orange-text text-darken-3 nav-links">Find a Recipe</a></li>
-                        <li><a href="#meet-the-expert" class="orange-text text-darken-3 nav-links">Meet the Experts</a></li>
-                        <li><a href="#our-esteemed-cliente" class="orange-text text-darken-3 nav-links">Cliente</a></li>
-                        <li><a href="#" class="white-text orange login-button">LOGIN</a></li>
-                    </ul>
+                    <div class="container">
+                        <a href="#mobile-sidenav" class="sidenav-trigger orange-text text-darken-4"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#who-we-are" class="orange-text text-darken-3 nav-links">Who We Are</a></li>
+                            <li><a href="#find-a-recipe" class="orange-text text-darken-3 nav-links">Find a Recipe</a></li>
+                            <li><a href="#meet-the-expert" class="orange-text text-darken-3 nav-links">Meet the Experts</a></li>
+                            <li><a href="#our-esteemed-cliente" class="orange-text text-darken-3 nav-links">Cliente</a></li>
+                            <li><a href="#" class="white-text orange login-button btn">LOGIN</a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
             <!-- side nav -->
@@ -36,15 +38,22 @@
                         <li><a href="#find-a-recipe" class="orange-text text-darken-3 nav-links">Find a Recipe</a></li>
                         <li><a href="#meet-the-expert" class="orange-text text-darken-3 nav-links">Meet the Experts</a></li>
                         <li><a href="#our-esteemed-cliente" class="orange-text text-darken-3 nav-links">Cliente</a></li>
-                        <li><a href="#" class="white-text orange login-button">LOGIN</a></li>
+                        <li><a href="#" class="white-text orange login-button btn">LOGIN</a></li>
                     </ul>
         </header>
     </div>
     <main>
         <!-- hero section -->
         <section>
-            <video width="100%" autoplay muted loop>
+            <div>
+                <video width="100%" autoplay muted loop>
                 <source src="img/header-bg-vid.mp4"></video>
+                <div class="h">
+                    <h2>Every Dish Tells a Story.</h2>
+                    <p>Explore, cook, and create with us.</p>
+                    <p class="btn orange darken-4">Get Started</p>
+                </div>
+            </div>
         </section>
         <!-- who we are section -->
         <section class="scrollspy container" id="who-we-are">
@@ -65,13 +74,15 @@
             <div class="row">
                 <!-- card 1 -->
                 <div class="col s12 m12 l4">
-                    <a href="cake.html">
-                        <div class="card rounded-edges">
-                            <div class="card-image">
-                                <img src="img/cake-main.jpg" alt="Cake" class="responsive-img rounded-edges">
-                                <div class="overlay">
-                                    <i class="material-icons white-text" style="transform: rotate(-45deg);">arrow_forward</i>
+                    <a href="cake.html" class="white-text">
+                        <div class="relative">
+                            <div class="card border-radius-10px">
+                                <div class="card-image">
+                                    <img src="img/cake-main.jpg" alt="Cake" class="responsive-img">
                                 </div>
+                            </div>
+                            <div class="overlay">
+                                <h3>Cakes <i class="material-icons">call_made</i></h3>
                             </div>
                         </div>
                     </a>
@@ -79,13 +90,15 @@
 
                 <!-- card 2 -->
                 <div class="col s12 m12 l4">
-                    <a href="chicken.html">
-                        <div class="card rounded-edges">
-                            <div class="card-image">
-                                <img src="img/chicken-main.jpg" alt="Chicken" class="responsive-img rounded-edges">
-                                <div class="overlay">
-                                    <i class="material-icons white-text" style="transform: rotate(-45deg);">arrow_forward</i>
+                    <a href="cake.html" class="white-text">
+                        <div class="relative">
+                            <div class="card border-radius-10px">
+                                <div class="card-image">
+                                    <img src="img/chicken-main.jpg" alt="Cake" class="responsive-img">
                                 </div>
+                            </div>
+                            <div class="overlay">
+                                <h3>Chicken<i class="material-icons">call_made</i></h3>
                             </div>
                         </div>
                     </a>
@@ -93,18 +106,19 @@
 
                 <!-- card 3 -->
                 <div class="col s12 m12 l4">
-                    <a href="soup.html">
-                        <div class="card rounded-edges">
-                            <div class="card-image">
-                                <img src="img/soup-main.jpg" alt="Soup" class="responsive-img rounded-edges">
-                                <div class="overlay">
-                                    <i class="material-icons white-text" style="transform: rotate(-45deg);">arrow_forward</i>
+                    <a href="cake.html" class="white-text">
+                        <div class="relative">
+                            <div class="card border-radius-10px">
+                                <div class="card-image">
+                                    <img src="img/soup-main.jpg" alt="Cake" class="responsive-img">
                                 </div>
+                            </div>
+                            <div class="overlay">
+                                <h3>Soups<i class="material-icons">call_made</i></h3>
                             </div>
                         </div>
                     </a>
                 </div>
-            </div>
         </section>
         <!-- Crafted by Culinary Wizards section -->
         <section class="scrollspy container">
@@ -150,45 +164,48 @@
             <div>
                 <h3>Meets the <span class="orange-text text-darken-4">experts</span></h3>
             </div>
+            <p>Our team of seasoned chefs offer expert guidance and delectable recipes to elevate your kitchen creations to new heights.</p>
             <div class="row">
                 <div class="col s12 m12 l4">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
+                    <div class="card z-depth-0">
+                        <div class="card-image">
                             <img src="img/expert-1.jpg" alt="Expert 1" class="activator">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+                            <span class="card-title activator black-text text-darken-4">
+                                Liam <span class="orange-text">Hamish</span>
+                            </span>
                         </div>
                         <div class="card-reveal">
-                            <p class="card-titlex"> <i class="material-icons right">close</i>A scottish  culinary virtuoso, infuses traditional flavours with innovative techniques, crafting exquiste dishes that celebrate his rich culinary heritage.</p>
+                            <p class="card-title"> <i class="material-icons right">close</i>A scottish  culinary virtuoso, infuses traditional flavours with innovative techniques, crafting exquiste dishes that celebrate his rich culinary heritage.</p>
                         </div>
                     </div>
                 </div>
                 <!-- card 2 -->
                 <div class="col s12 m12 l4">
-                    <div class="card">
+                    <div class="card z-depth-0">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img src="img/expert-2.jpg" alt="Expert 1" class="activator">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+                            <span class="card-title activator black-text text-darken-4">Alejandro <span class="orange-text text-darken-4">Mateo</span></span>
                         </div>
                         <div class="card-reveal">
-                            <p class="card-titlex"> <i class="material-icons right">close</i>He showcases the rich tapestry of Spanish cuisine through his bold flavors and artsitic presentations, honoring age-old traditions with a contemporary flair.</p>
+                            <p class="card-title"> <i class="material-icons right">close</i>He showcases the rich tapestry of Spanish cuisine through his bold flavors and artsitic presentations, honoring age-old traditions with a contemporary flair.</p>
                         </div>
                     </div>
                 </div>
                 <!-- card 3 -->
                 <div class="col s12 m12 l4">
-                    <div class="card">
+                    <div class="card z-depth-0">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img src="img/expert-3.jpg" alt="Expert 1" class="activator">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+                            <span class="card-title activator black-text text-darken-4">Miranda <span class="orange-text text-darken-4">Tangrove</span></span>
                         </div>
                         <div class="card-reveal">
-                            <p class="card-titlex"> <i class="material-icons right">close</i>She brings a modern twist to classic American cuisine, blending flavors from diverse cultural influences to create culinary masterpieces that captivate the palate.</p>
+                            <p class="card-title"> <i class="material-icons right">close</i>She brings a modern twist to classic American cuisine, blending flavors from diverse cultural influences to create culinary masterpieces that captivate the palate.</p>
                         </div>
                     </div>
                 </div>
@@ -265,7 +282,7 @@
 <script>
     $(document).ready( ()=>{
     $('sidenav').sidenav();
-    $('scrollspy').scrollspy();
+    $('scrollspy').scrollSpy();
     })
 </script>
 </html>
