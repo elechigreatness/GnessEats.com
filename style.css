@@ -82,3 +82,7 @@ footer {
     margin-top: 150px;
     background: linear-gradient(to top, #e65100 0%, #ffad7a 45%, #f9f5f6 100%);
 }
+.duration {
+    border-radius: 30px;
+    padding: 12px;
+}
