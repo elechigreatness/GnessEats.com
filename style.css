@@ -15,8 +15,8 @@ video {
 .h {
     position: absolute;
     display: inline-block;
-    top: 300px;
-    left: 550px;
+    top: 200px;
+    left: 400px;
     color: white;
 }
 .who-we-are-button {
